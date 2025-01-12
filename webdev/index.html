@@ -3,112 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sheet 1</title>
+    <title>Bootcamp</title>
+    <!-- link.css -->
 </head>
 
 <body>
-    <div>
-        <h1>!! Bootcamp !!</h1>
-        <p>We started learning HTML.</p>
-        <!-- <pre>We will    learn 
-            many things here.</pre> -->
 
-        <p>Following are examples of subscipt and superscipt tags respectively.</p>
-        H<sub>2</sub>O
-        <br>
-        H<sup>2</sup>O
-    </div>
+    <header>
+        <h1>WEB DEVELOPMENT BOOTCAMP</h1>
+        
+        <img src="/webdev/img_vid/360_F_79730489_5SIp09GQEKeunAhmvnX515MIaT84UcUQ.jpg" height="150" alt="bootcamp">
+        <video src="/webdev/img_vid/coding2.mp4" controls height="150"></video>
 
-    <hr>
-
-    <div>
-        <ul>
-            <li>this is unordered list.</li>
-            <li>it shows elements in bullets.</li>
-        </ul>
-
-        <ol>
-            <li>this is ordered list.</li>
-            <li>it shows elements in number order.</li>
-        </ol>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="/webdev/about.html">About Us</a></li>
+                <li><a href="/webdev/schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <hr>
 
-    <div>
-        <a href="https://www.google.com/">Google</a>
-        <br>
-        <a href="https://www.youtube.com/">Youtube</a>
-        <br>
-        <a href="/webdev/sheet2.html">Sheet 2</a>
-        <br><br>
-        <img src="/webdev/img_vid/360_F_79730489_5SIp09GQEKeunAhmvnX515MIaT84UcUQ.jpg" height="250" alt="bootcamp">
-        <br><br>
-        <video src="/webdev/img_vid/coding.mp4" controls></video>
-        <video src="/webdev/img_vid/coding2.mp4" controls></video>
-        <br><br>
-        <iframe src="https://www.wikipedia.org/" width="500" height="250"></iframe>
-    </div>
+    <main>
+    
+        <div>
+            <p>Some of the HTML tags that will be taught in the session are showed in the following table.</p>
 
-    <br><hr>
+            <table border="5" width="180">
+                <caption>HTML TAGS</caption>
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Tag Name</th>
+                    </tr>
+                </thead>
 
-    <div>
-        <table border="4" >
-            <caption><b>HTML TAGS</b></caption>
-            <thead>
-                <tr>
-                    <th>S.No.</th>
-                    <th>Tag Name</th>
-                </tr>
-            </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Paragraph Tag</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Image Tag</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Video Tag</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Iframe Tag</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Anchor Tag</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <br><hr>
 
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Paragraph Tag</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Image Tag</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Video Tag</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        <div>
+            To enroll in the web development bootcamp fill the form given below. 
 
-    <br><hr>
+            <form action="">
+                <label for="name">
+                    Name:
+                    <input type="text" 
+                    placeholder="Enter Name">
+                </label>
+                <br><br>
+                <label for="email">
+                    Email:
+                    <input type="email"
+                    placeholder="Enter Email">
+                </label>
+                <br><br>
+                <label for="phone">
+                    Phone Number:
+                    <input type="tel" 
+                    placeholder="Enter Phone Number">
+                </label>
+                <br><br>
+                <label for="dev">
+                    Why do you like web dev?
+                    <input type="text"
+                    placeholder="write your answer.">
+                </label>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
 
-    <div>
-        <form action="">
-            <label for="phone">
-                Name:
-                <input type="text" 
-                placeholder="Enter Name">
-            </label>
-            <br><br>
-            <label for="email">
-                Email:
-                <input type="email"
-                placeholder="Enter Email">
-            </label>
-            <br><br>
-            <label for="phone">
-                Phone Number:
-                <input type="tel" 
-                placeholder="Enter Phone Number">
-            </label>
-            <br><br>
-            <label for="dev">
-                Do you like web dev:
-                <input type="checkbox">
-            </label>
-            <br><br>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+        </div>
+    
+    </main>
+    
+    <hr>
 
+    <footer>
+        <p>&copy; 2025 Web Development Bootcamp.</p>
+        <p>For any queries contact through our email, mentioned below.</p>
+        <a href="mailto:maieshamehra@gmail.com">maieshamehra@gmail.com</a>
+    </footer>
+    
 </body>
 </html>
