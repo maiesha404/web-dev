@@ -4,32 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp</title>
+    <link rel="stylesheet" href="/webdev/stlye.css" class="css">
 </head>
 
 <body>
-
-    <header>
-        <h1>WEB DEVELOPMENT BOOTCAMP</h1>
-        
-        <img src="/webdev/img_vid/360_F_79730489_5SIp09GQEKeunAhmvnX515MIaT84UcUQ.jpg" height="150" alt="bootcamp">
-        <video src="/webdev/img_vid/coding2.mp4" controls height="150"></video>
-
-        <nav>
-            <ul>
-                <li><a href="/webdev/about.html">About Us</a></li>
-                <li><a href="/webdev/schedule.html">Schedule</a></li>
-            </ul>
-        </nav>
-    </header>
     
+    <header>
+        <div class="div1">
+            <h1> <b> WEB DEVELOPMENT BOOTCAMP </b></h1>
+        </div>
+        
+        <div class="div3">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="/webdev/about.html">About Us</a></li>
+                    <li><a href="/webdev/schedule.html">Schedule</a></li>
+                    <li><a href="/webdev/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="div2">
+            <img src="/webdev/img_vid/robocode.jpg" height="150px">
+
+            <img src="/webdev/img_vid/360_F_79730489_5SIp09GQEKeunAhmvnX515MIaT84UcUQ.jpg" height="150" alt="bootcamp">
+
+            <img src="/webdev/img_vid/mancode.avif" height="150px">
+        </div>        
+    </header>
+
     <hr>
 
     <main>
-    
-        <div>
+
+        <div class="div4">
             <p>Some of the HTML tags that will be taught in the session are showed in the following table.</p>
 
-            <table border="5" width="180">
+            <table border="5" width="200">
                 <caption>HTML TAGS</caption>
                 <thead>
                     <tr>
@@ -65,47 +76,75 @@
         
         <br><hr>
 
-        <div>
-            To enroll in the web development bootcamp fill the form given below. 
+        <div class="div5">
+            <p>To enroll in the web development bootcamp fill the form given below.</p>
+            <br>
+            <label for="name">
+                Name:
+                <input type="text" placeholder="Enter Name" id="name" name="name">
+            </label> 
+            <br><br>
+    
+            <label for="email">
+                Email:
+                <input type="email" placeholder="Enter Email" id="email" name="email">
+            </label> 
+            <br><br>
+            
+            <label for="phone">
+                Phone Number:
+                <input type="tel" placeholder="Enter Phone Number" id="phone" name="phone">
+            </label> 
+            <br><br>
+            
+            <label for="dob">
+                Date Of Birth:
+                <input type="date" placeholder="date" id="dob" name="dob">
+            </label> 
+            <br><br>
+            
+            <div class="Q1">
+                <p>Which year are ypu currrently in?</p>
+                <label for="1st">
+                    <input type="radio" name="1st" id="1st"> 1st year
+                </label><br>
 
-            <form action="">
-                <label for="name">
-                    Name:
-                    <input type="text" 
-                    placeholder="Enter Name">
+                <label for="2nd">
+                    <input type="radio" name="2nd" id="2nd"> 2nd year
+                </label><br>
+
+                <label for="3rd">
+                    <input type="radio" name="3rd" id="3rd"> 3rd year
+                </label><br>
+
+                <label for="4th">
+                    <input type="radio" name="4th" id="4th"> 4th year
                 </label>
-                <br><br>
-                <label for="email">
-                    Email:
-                    <input type="email"
-                    placeholder="Enter Email">
-                </label>
-                <br><br>
-                <label for="phone">
-                    Phone Number:
-                    <input type="tel" 
-                    placeholder="Enter Phone Number">
-                </label>
-                <br><br>
-                <label for="dev">
-                    Why do you like web dev?
-                    <input type="text"
-                    placeholder="write your answer.">
-                </label>
-                <br><br>
+            </div> 
+            <br>
+            
+            <label for="reason">
+                Why do you want to join this bootcamp?
+                <textarea id="reason" name="reason" rows="5"></textarea>
+            </label>
+
+            <div id="id1">
                 <button type="submit">Submit</button>
-            </form>
-
+            </div>
+                
+            </form> 
         </div>
     
     </main>
-    
+
     <hr>
 
     <footer>
-        <p>&copy; 2025 Web Development Bootcamp.</p>
-        <p>For any queries contact through our email, mentioned below.</p>
-        <a href="mailto:maieshamehra@gmail.com">maieshamehra@gmail.com</a>
+        <div class="div6">
+            <p>&copy; 2025 Web Development Bootcamp.</p>
+            <p>For any queries contact through our email, mentioned below.</p>
+            <a href="mailto:maieshamehra@gmail.com">maieshamehra@gmail.com</a>
+        </div>
     </footer>
     
 </body>
