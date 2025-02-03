@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    margin: 10px;
+    padding: 10px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: rgb(207, 11, 11);  
+    text-decoration: underline;
+    text-decoration-style:solid;  
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #333;
+    background: linear-gradient(to right, #5fff6c, #7bfeed);
+}
+.box1{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+}
+.box2{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+}
