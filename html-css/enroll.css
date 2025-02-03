@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.div5{
+    margin: 10px;
+    padding: 10px;
+}
+
+.div5>p{
+    text-align: center; 
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: "Playfair Display", serif;
+    color: rgb(207, 11, 11);  
+    text-decoration-style:solid;  
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #333;
+    background: linear-gradient(to right, #5fff6c, #7bfeed)
+}
+button{ 
+    background-color: rgba(103, 169, 226, 0.712);
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+#id1{
+    button:hover{
+        background-color: rgb(245, 80, 80);
+    }
+    text-align: right;
+}
