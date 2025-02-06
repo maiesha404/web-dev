@@ -15,7 +15,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: beige;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);    z-index: 999;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    z-index: 999;
     position: sticky;
     top:0;
 }
@@ -23,16 +24,16 @@
     height: 100px;
     border-radius: 41%;
 }
-.nav-bar {
+#nav-bar {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav-bar li {
+#nav-bar li {
     list-style: none;
     padding: 20px;
 }
-.nav-bar li a {
+#nav-bar li a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #da45df;
@@ -41,10 +42,17 @@
     border-radius: 5px;
     transition: background 0.3s;
 }
-.nav-bar li a:hover,.nav-bar li a.active {
+#nav-bar li a:hover ,#nav-bar li a.active {
     color:darkred;
     text-decoration: underline;
     text-decoration-style: wavy;
+}
+#nav {
+    display: none;
+    align-items: center;
+}
+#back {
+    display: none;
 }
 
 
@@ -58,7 +66,7 @@
     height: 80vh;
     background-position: top 30% right 0;
     background-size: cover;
-    padding: 70px;
+    padding: 0 70px;
 }
 #main1 h1 {
     font-family: "PT Serif", serif;
@@ -194,7 +202,6 @@ footer a:hover {
 }
 
 
-
 h1 {
     font-size: 3rem;
     font-weight: 800;
@@ -215,4 +222,49 @@ h5 {
     font-size: 1rem;
     font-weight: 400;
     color: #1d1d1d;
+}
+
+@media (max-width: 768px) {
+    
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        transition: 0.3s;
+        right:-300px;
+        height: 100vh;
+        width:300px;
+        background-color: antiquewhite;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+        padding: 60px 0 0 12px;
+    }
+    #back {
+        position: absolute;
+        font-size: 28px;
+        top: 10px;
+        left: 15px;
+        display: initial;
+    }
+
+    #nav-bar.active{
+        right: 0px;
+    }
+
+    #nav {
+        display: flex;
+        align-items: center;
+    }
+
+    #main1 {
+        height: 80vh;
+        padding: 0 70px;
+        background-position: top 25% right 25%;
+    } 
+
+    #main2 {
+        justify-content: center;
+    }    
 }
