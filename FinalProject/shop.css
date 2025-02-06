@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+}
+
+#main3 {
+    padding: 40px 80px;
+}
+#main3 .item {
+    border-radius: 15px;
+    width: 23%;
+    min-width: 250px;
+    padding: 8px 10px;
+    border: 1px solid #1d1d1d;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#main3 .cont {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+    justify-content: center;
+    padding: 20px;
+}
+#main3 .item img {
+    width: 90%;
+    border-radius: 15px;
+}
+#main3 .item content {
+    text-align: start;
+    padding: 8px 0;
+}
+#main3 h1 { 
+    font-family: "PT Serif", serif;
+    text-align: center;
+    font-size: 70px;
+    color: blueviolet;
+}
+#main3 h5 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+}
